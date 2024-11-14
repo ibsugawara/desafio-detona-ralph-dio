@@ -28,8 +28,7 @@ function countDown() {
     if (state.values.currentTime <= 0) {
         clearInterval(state.actions.countDownTimerId)
         clearInterval(state.actions.timerId)
-        playSound("gameover")
-        alert("GAME OVER! O seu resultado foi: " + state.values.result);
+        gameEnd();
     }
 }
 
@@ -80,7 +79,7 @@ function addListenerHitbox() {
                 state.view.playerLives.textContent = state.values.lives;
 
                 if(state.values.lives <= 0) {
-                    gameEnd("gameover");
+                    gameEnd();
                 }
 
             }
