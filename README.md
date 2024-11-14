@@ -1,0 +1,2 @@
+# Jogo Detona Ralph - Desafio DIO # 
+Este projeto é um jogo do Detona Ralph, onde o objetivo é marcar pontos ao clicar no inimigo. O jogo termina quando o tempo acaba ou quando o jogador perde todas as vidas. Ele foi desenvolvido como parte de um desafio no curso da DIO, utilizando HTML, CSS e JavaScript.
